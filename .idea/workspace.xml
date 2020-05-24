@@ -1,14 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6caa139f-b6ec-472a-960b-f75b2dce6f58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/recipes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1cM7aUWhPw7SucpEqHw3s3k71cK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Programming/software/Android/Sdk" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\4masm\WebstormProjects\react-reciper\src\data\img" />
+      <recent name="C:\Users\4masm\WebstormProjects\react-reciper\src\data" />
+      <recent name="C:\Users\4masm\WebstormProjects\react-reciper\src" />
+      <recent name="C:\Users\4masm\WebstormProjects\react-reciper\public" />
+      <recent name="C:\Users\4masm\WebstormProjects\react-reciper\public\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6caa139f-b6ec-472a-960b-f75b2dce6f58" name="Default Changelist" comment="" />
+      <created>1590326671049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590326671049</updated>
+      <workItem from="1590326672639" duration="19927000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1491" height="729" key="DiffContextDialog" timestamp="1590346450267">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state x="92" y="92" width="1491" height="729" key="DiffContextDialog/0.0.1676.913@0.0.1676.913" timestamp="1590346450267" />
+    <state width="1654" height="240" key="GridCell.Tab.0.bottom" timestamp="1590329276307">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1654" height="240" key="GridCell.Tab.0.bottom/0.0.1676.913@0.0.1676.913" timestamp="1590329276307" />
+    <state width="1654" height="240" key="GridCell.Tab.0.center" timestamp="1590329276307">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1654" height="240" key="GridCell.Tab.0.center/0.0.1676.913@0.0.1676.913" timestamp="1590329276307" />
+    <state width="1654" height="240" key="GridCell.Tab.0.left" timestamp="1590329276307">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1654" height="240" key="GridCell.Tab.0.left/0.0.1676.913@0.0.1676.913" timestamp="1590329276307" />
+    <state width="1654" height="240" key="GridCell.Tab.0.right" timestamp="1590329276307">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state width="1654" height="240" key="GridCell.Tab.0.right/0.0.1676.913@0.0.1676.913" timestamp="1590329276307" />
+    <state x="346" y="98" key="SettingsEditor" timestamp="1590337627241">
+      <screen x="0" y="0" width="1676" height="913" />
+    </state>
+    <state x="346" y="98" key="SettingsEditor/0.0.1676.913@0.0.1676.913" timestamp="1590337627241" />
   </component>
 </project>
