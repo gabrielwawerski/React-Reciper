@@ -45,6 +45,7 @@ class RecipeContainer extends React.Component {
         let recipes = [];
         for (let i = 0; i < data.recipes.length; i++) {
             recipes.push(<Recipe
+                key={i}
                 src={require('../public/img' + data.recipes[i].img)}
                 recipeTitle={data.recipes[i].name}
                 recipeDescription={data.recipes[i].description}
@@ -56,10 +57,6 @@ class RecipeContainer extends React.Component {
                 {recipes}
             </div>
         );
-    }
-
-    componentWillMount() {
-        // document.body.style.backgroundImage = './background.jpeg';
     }
 }
 
