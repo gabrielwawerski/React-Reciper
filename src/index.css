@@ -9,6 +9,17 @@ body {
     background-size: cover;
 }
 
+a {
+    text-decoration: none;
+    color: unset;
+    display: block;
+}
+
+.content {
+    font-family: 'Fanwood Text', serif;
+    padding-top: 50px;
+}
+
 .recipe-container {
     display: flex;
     flex-direction: row;
@@ -92,4 +103,47 @@ p.recipe-title {
     text-align: center;
     padding: 5px 5px 2px 5px;
     margin: 0;
+}
+
+@media only screen and (max-width: 1395px) {
+    .recipe-container {
+        margin: 0;
+        padding-top: 48px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .content {
+        margin: 0;
+    }
+
+    .recipe-container {
+        margin: 0;
+        padding-top: 1px;
+
+    }
+
+    .recipe {
+        margin: 0 0 2px 0;
+        text-align: center;
+        max-width: unset;
+        transition: unset;
+        width: 100%;
+    }
+
+    .recipe-img {
+        width: 100%;
+    }
+
+    .img-container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .img-wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
 }
