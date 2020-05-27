@@ -52,7 +52,7 @@ a {
     background-size: cover;
 }
 
-.img-container {
+.link-container {
     width: 350px;
     height: 225px;
     cursor: pointer;
@@ -135,7 +135,7 @@ p.recipe-title {
         width: 100%;
     }
 
-    .img-container {
+    .link-container {
         margin: 0;
         padding: 0;
         width: 100%;

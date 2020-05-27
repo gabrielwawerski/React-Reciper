@@ -1,6 +1,7 @@
 {
   "recipes": [
     {
+      "id": 1,
       "name": "Risotto with chicken, vegetables and mushrooms",
       "img": "/risotto.jpg",
       "productList": [
@@ -12,6 +13,7 @@
       "instructions": "Pokrój cebulę w kostkę i zacznij smażyć-Dodaj kurczaka-Po 3 min dodaj warzywa, ryż i przyprawy"
     },
     {
+      "id": 2,
       "name": "Pasta salad with bacon",
       "img": "/pasta-salad.jpg",
       "productList": [
@@ -22,6 +24,7 @@
       "instructions": "pasta salad description"
     },
     {
+      "id": 3,
       "name": "Spaghetti Carbonara",
       "img": "/spaghetti-carbonara.jpg",
       "productList": [
@@ -35,6 +38,7 @@
       "instructions": "carbonara description"
     },
     {
+      "id": 4,
       "name": "Recipe4",
       "img": "/pasta-salad.jpg",
       "productList": [
@@ -48,6 +52,7 @@
       "instructions": "These are the instructions.-Second instruction-And a third!"
     },
     {
+      "id": 5,
       "name": "Recipe5",
       "img": "/risotto.jpg",
       "productList": [
@@ -61,6 +66,7 @@
       "instructions": "These are the instructions.-Second instruction-And a third!"
     },
     {
+      "id": 6,
       "name": "Recipe6",
       "img": "/spaghetti-carbonara.jpg",
       "productList": [
@@ -74,6 +80,7 @@
       "instructions": "These are the instructions.-Second instruction-And a third!"
     },
     {
+      "id": 7,
       "name": "Recipe7",
       "img": "/risotto.jpg",
       "productList": [
@@ -87,6 +94,7 @@
       "instructions": "These are the instructions.-Second instruction-And a third!"
     },
     {
+      "id": 8,
       "name": "Recipe8",
       "img": "/pasta-salad.jpg",
       "productList": [
@@ -100,6 +108,7 @@
       "instructions": "These are the instructions.-Second instruction-And a third!"
     },
     {
+      "id": 9,
       "name": "Recipe9",
       "img": "/risotto.jpg",
       "productList": [
@@ -113,6 +122,7 @@
       "instructions": "These are the instructions.-Second instruction-And a third!"
     },
     {
+      "id": 10,
       "name": "Recipe10",
       "img": "/spaghetti-carbonara.jpg",
       "productList": [

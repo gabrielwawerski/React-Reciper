@@ -5,12 +5,30 @@ import './header.css';
 import './shopping_list.css';
 import data from './data/recipes.json';
 
-class Reciper extends React.Component {
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            recipeData: data.recipes,
+        }
+    }
+
     render() {
         return (
             <div className="content">
                 <Header/>
-                <RecipeContainer/>
+                <div className="recipe-container">
+                    {this.state.recipeData.map(recipe => (
+                        <Recipe
+                            key={recipe.id}
+                            src={require('../public/img' + recipe.img)}
+                            recipeTitle={recipe.name}
+                            recipeDescription={recipe.description}
+                            handleCheckbox={"todo"}
+                            handleLink={"todo"}
+                        />
+                    ))}
+                </div>
             </div>
         )
     }
@@ -102,26 +120,6 @@ class ShoppingList extends React.Component {
     }
 }
 
-class RecipeContainer extends React.Component {
-    render() {
-        let recipes = [];
-        for (let i = 0; i < data.recipes.length; i++) {
-            recipes.push(<Recipe
-                key={i}
-                src={require('../public/img' + data.recipes[i].img)}
-                recipeTitle={data.recipes[i].name}
-                recipeDescription={data.recipes[i].description}
-            />)
-        }
-
-        return (
-            <div className="recipe-container">
-                {recipes}
-            </div>
-        );
-    }
-}
-
 class Recipe extends React.Component {
     render() {
         return (
@@ -137,8 +135,14 @@ class ImgWrapper extends React.Component {
     render() {
         return (
             <div className="img-wrapper" style={{backgroundImage: `url(${this.props.src})`}}>
-                <div className="img-container"></div>
-                <input type="checkbox" className="checkbox" onClick={this.addRecipe}/>
+                <div className="link-container"
+                     onClick={this.props.handleLink}
+                >
+                </div>
+                <input className="checkbox"
+                       type="checkbox"
+                       onClick={this.props.handleCheckbox}
+                />
             </div>
         );
     }
@@ -158,6 +162,6 @@ function RecipeInfo(props) {
 }
 
 ReactDOM.render(
-    <Reciper/>,
+    <App/>,
     document.getElementById('root')
 );
